@@ -1,22 +1,46 @@
+
+---
+
 # 🌤️ Weather App
 
-A simple yet functional Weather App built using **HTML, CSS, and JavaScript** with the **Fetch API** to pull real-time weather data from [OpenWeather](https://openweathermap.org/).
+A simple weather application built with **HTML, CSS, and JavaScript** that fetches real-time weather data using the **OpenWeatherMap API**.
 
----
+## 🚀 Features
 
-## 🔑 Features
-- 🌎 Search for any city and get live weather updates.  
-- 🌡️ Displays **temperature, humidity, and wind speed**.  
-- 🌤️ Dynamic weather icons that change with conditions (Clear, Clouds, Rain, Mist, etc.).  
-- ❌ Error handling for invalid city names.  
-- 📱 Clean and responsive UI built from scratch.
+1. Search weather by city name.
+2. Displays:
 
----
+   * 🌡️ Temperature (°C)
+   * 💧 Humidity (%)
+   * 🌬️ Wind Speed (km/h)
+   * Weather condition icon (Sunny, Clouds, Rain, etc.)
+3. Error handling for invalid city names.
+4. Responsive UI with clean design.
 
-## ⚡ Tech Stack
-- **HTML** – Structure  
-- **CSS** – Styling (responsive design)  
-- **JavaScript (Fetch API)** – Data fetching and DOM updates  
+## 🛠️ Technologies Used
 
+* **HTML** – Structure
+* **CSS** – Styling
+* **JavaScript (Vanilla JS)** – Logic & API calls
+* **OpenWeatherMap API** – Real-time weather data
 
+## 📦 Installation & Setup
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/abdullahahsan-007/weather-js-fetchapi.git
+   cd weather-app
+   ```
+2. Open `index.html` in your browser.
+
+## 🔑 API Key Setup
+
+1. Go to [OpenWeatherMap](https://openweathermap.org/api).
+2. Sign up and generate your **API Key**.
+3. In `script.js`, replace `APIKEY` with your key:
+
+   ```javascript
+   const apikey = "YOUR_API_KEY";
+   ```
 
