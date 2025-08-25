@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather</title>
+  <link rel="stylesheet" href="style.css" />
+  
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="box-1">
+      <input type="search" placeholder="Search weather" id="searchvalue" />
+      <button id="searchbtn">
+        <img src="assets/magnifying-glass-solid.svg" alt="search icon" style="width: 20px;" />
+      </button>
+    </div>
+    <div class="error" id="error"> 
+      <p>invalid City name</p>
+    </div>
+   <div class="weather" id="weather">
+  <img src="assets/sun-clouds.png" alt="Weather Image" class="w-image" id="w-image" />
+ <div>
+   <p id="city">New York</p>
+   <p id="temperature" >22.6°C</p>
+  </div>
+</div>
+
+
+    <div class="w-cont" id="w-cont">
+      
+        <div class="w-logo-cont">
+            <img src="assets/humidity_17549947.png" alt="wind" class="w-logo" />
+      <div class="w-logo-value">
+        <p id="Humidity" class="Humidity">50%</p>
+        <p class="Humidity">Humidity</p>
+        </div>
+</div>
+
+        <div class="w-logo-cont">
+            <img src="assets/Wind turbine-bro.svg" alt="wind turbine" class="w-logo"   />
+         <div class="w-logo-value">
+           <p id="wind" class="wind">25Km/h</p> 
+               <p class="wind">Wind</p>
+         </div>
+      </div>
+    </div>
+</div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
